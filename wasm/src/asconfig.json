@@ -1,0 +1,13 @@
+{
+  "targets": {
+    "release": {
+      "outFile": "../base62x.wasm",
+      "textFile": "../base62x.wat",
+      "sourceMap": false,
+      "optimizeLevel": 3,
+      "shrinkLevel": 0,
+      "converge": false,
+      "noAssert": false
+    }
+  }
+}
