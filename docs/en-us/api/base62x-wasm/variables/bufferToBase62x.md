@@ -4,7 +4,7 @@
 
 > `const` **bufferToBase62x**: (`data`) => `string`
 
-Defined in: [base62x-wasm.ts:212](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L212)
+Defined in: [base62x-wasm.ts:215](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L215)
 
 Encode a `Buffer` to a BASE62x-encoded string.
 

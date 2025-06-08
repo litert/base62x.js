@@ -4,7 +4,7 @@
 
 > `const` **stringToBase62x**: (`data`) => `string`
 
-Defined in: [base62x-wasm.ts:185](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L185)
+Defined in: [base62x-wasm.ts:188](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L188)
 
 Encode a UTF-8 string into a BASE62x-encoded string.
 

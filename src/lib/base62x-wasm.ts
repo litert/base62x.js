@@ -141,7 +141,10 @@ export class WasmBase62xEncoder {
         }
 
         // read the result from the wasm memory (starting from RMS + inLength, ending at RMS + inLength + outLength).
-        return Buffer.from(this._apis.memory.buffer, RMS + inLength, outLength);
+        const ret = Buffer.allocUnsafe(outLength);
+
+        Buffer.from(this._apis.memory.buffer, RMS + inLength, outLength).copy(ret);
+        return ret;
     }
 
     /**

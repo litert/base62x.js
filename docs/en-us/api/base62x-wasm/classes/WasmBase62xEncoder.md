@@ -79,7 +79,7 @@ Encode a buffer to a string encoded in base62x.
 
 > **stringFromBase62x**(`data`): `string`
 
-Defined in: [base62x-wasm.ts:166](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L166)
+Defined in: [base62x-wasm.ts:169](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L169)
 
 Convert a base62x encoded string back to a UTF-8 string.
 
@@ -103,7 +103,7 @@ The UTF-8 string converted from the base62x encoded string.
 
 > **stringToBase62x**(`data`): `string`
 
-Defined in: [base62x-wasm.ts:154](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L154)
+Defined in: [base62x-wasm.ts:157](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L157)
 
 Convert the bytes of a UTF-8 string to a string encoded in base62x.
 

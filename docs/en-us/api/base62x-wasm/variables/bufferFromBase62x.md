@@ -4,7 +4,7 @@
 
 > `const` **bufferFromBase62x**: (`input`) => `Buffer`
 
-Defined in: [base62x-wasm.ts:225](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L225)
+Defined in: [base62x-wasm.ts:228](https://github.com/litert/base62x.js/blob/master/src/lib/base62x-wasm.ts#L228)
 
 Decode a BASE62x-encoded string into a `Buffer`.
 
